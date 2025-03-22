@@ -10,7 +10,7 @@ export const Login = () => {
           <div className="flex justify-center">
             <Coffee className="h-12 w-12 text-[#7d5a50]" />
           </div>
-          <CardTitle className="text-2xl font-bold text-[#7d5a50]">Coffee - Cafetal</CardTitle>
+          <CardTitle className="text-2xl font-bold text-[#7d5a50]">Coffee Cafetal</CardTitle>
           <CardDescription className="text-[#7d5a50]">Inicia sesión con tus credenciales</CardDescription>
         </CardHeader>
         <CardContent>
