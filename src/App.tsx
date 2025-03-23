@@ -2,6 +2,7 @@ import { Coffee, Package, BarChart3, Users } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { FeatureCard } from "./components/app/FeatureCard"
 import { NavLink } from "react-router"
+import HeroImage from "/hero.jpg"
 
 function App() {
   return (
@@ -47,7 +48,7 @@ function App() {
         <div className="flex-1">
           <div className="relative h-64 w-full overflow-hidden rounded-lg shadow-xl md:h-80 lg:h-96">
             <img
-              src="/placeholder.svg?height=600&width=800"
+              src={HeroImage}
               alt="Coffee shop management dashboard"
               className="object-cover"
             />
